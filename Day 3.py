@@ -18,7 +18,7 @@
 account_balance = '12'
 account_balance1 = 12
 
-isinstance(account_balance, int) # False
-isinstance(account_balance1, (int, float)) # True
+print(isinstance(account_balance, int)) # False
+print(isinstance(account_balance1, (int, float)) )# True
 
 
