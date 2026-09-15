@@ -19,6 +19,12 @@ str5 = "It's a rainny day."
 
 print(str5)
 
-quote = 'She said, "Hello World!"'
+quote = 'She said, "Hello World!"' #using different quotation mark
 print(quote)
+
+msg = 'It\'s a sunny day'  #using different quotation mark
+quote2 = "She said, \"Hello!\""  #using different quotation mark
+
+print(msg)
+print(quote2)
 
