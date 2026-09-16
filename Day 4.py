@@ -38,3 +38,8 @@ print('hey' in my_str)    # False
 print('hi' in my_str)    # False
 print('e' in my_str)  # True
 print('f' in my_str)  # False
+
+#print length of the string
+print(len(my_str))  # 11
+
+
