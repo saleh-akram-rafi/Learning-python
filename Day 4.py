@@ -42,4 +42,11 @@ print('f' in my_str)  # False
 #print length of the string
 print(len(my_str))  # 11
 
+#Print String's specifict index
 
+print(my_str[0]) #H
+print(my_str[6]) #W
+
+my_str = 'Hello world'
+print(my_str[-1])  # d
+print(my_str[-2]) # l
