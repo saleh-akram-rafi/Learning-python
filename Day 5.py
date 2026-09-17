@@ -12,11 +12,12 @@ sound = 'ha'
 repeated_sound = sound * 3
 print(repeated_sound) # hahaha
 
-# {
-# name = 'John Doe'
-# age = 26
+
+name = 'John Doe'
+age = 26
 
 # name_and_age = name + age
 # print(name_and_age) # TypeError: can only concatenate str (not "int") to str
 #}
+
 
