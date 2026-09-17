@@ -12,13 +12,16 @@ sound = 'ha'
 repeated_sound = sound * 3
 print(repeated_sound) # hahaha
 
-
+# Concatinating with Numbers
 name = 'John Doe'
 age = 26
 
 # name_and_age = name + age
 # print(name_and_age) # TypeError: can only concatenate str (not "int") to str
 #}
-name_and_age = name + ' '+str(age)
+name_and_age = name + ' '+str(age) # This is the porper way
 print(name_and_age) # John Doe26
+
+#The augmented assignment operator.
+
 
