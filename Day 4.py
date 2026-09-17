@@ -50,3 +50,10 @@ print(my_str[6]) #W
 my_str = 'Hello world'
 print(my_str[-1])  # d
 print(my_str[-2]) # l
+
+#Reassignment
+greeting = 'hi'
+greeting = 'hello'
+print(greeting) # hello
+
+
