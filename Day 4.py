@@ -56,4 +56,7 @@ greeting = 'hi'
 greeting = 'hello'
 print(greeting) # hello
 
+greeting = 'hi'
+greeting[0] = 'H' # TypeError: 'str' object does not support item assignment
+
 
