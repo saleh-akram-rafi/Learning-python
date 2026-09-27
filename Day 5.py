@@ -19,8 +19,13 @@ age = 26
 # name_and_age = name + age
 # print(name_and_age) # TypeError: can only concatenate str (not "int") to str
 #}
-name_and_age = name + ' '+str(age) # This is the porper way
-print(name_and_age) # John Doe26
+#name_and_age = name + ' '+str(age) # This is the porper way
+#print(name_and_age) # John Doe26
+
+name_and_age = name  # Start with the name
+name_and_age += str(age)  # Append the age as string
+
+print(name_and_age)  # John Doe26
 
 #The augmented assignment operator.
 
