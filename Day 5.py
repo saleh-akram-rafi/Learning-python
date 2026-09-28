@@ -28,5 +28,11 @@ name_and_age += str(age)  # Append the age as string
 print(name_and_age)  # John Doe26
 
 #The augmented assignment operator.
+name_and_age = f'My name is {name} and I am {age} years old'
+print(name_and_age) # My name is John Doe and I am 26 years old
 
+num1 = 5
+num2 = 10
+print(f'The sum of {num1} and {num2} is {num1 + num2}')
 
+#Study About this f 
